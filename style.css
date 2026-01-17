@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background: rgb(45, 43, 43);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(74, 72, 72, 0.2);
+  width: 350px;
+  text-align: center;
+  color:white;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-section input:focus {
+  border-color: #74ebd5;
+}
+
+.input-section button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #74ebd5;
+  
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+  box-shadow: 0 0 5px cyan,0 0 5px cyan;
+}
+
+.input-section button:hover {
+  background: #9face6;
+  box-shadow: 0 0 5px #9face6,0 0 5px #9face6,0 0 5px #9face6,0 0 5px #9face6;
+}
+
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#taskList li {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, background 0.3s;
+  color:black
+}
+
+#taskList li:hover {
+  background: #eef2f7;
+  transform: scale(1.02);
+}
+
+#taskList li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
