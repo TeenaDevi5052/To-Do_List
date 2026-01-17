@@ -28,7 +28,3 @@ This project demonstrates DOM manipulation, event handling, and dynamic UI updat
 4. Click the 🗑️ icon to delete the task.  
 
 ---
-
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
